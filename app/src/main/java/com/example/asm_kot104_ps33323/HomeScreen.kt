@@ -448,7 +448,7 @@ fun FavoriteItem(icon : Int , name : String , price : Double){
             Icon(painter = painterResource(id = R.drawable.delete), contentDescription = null, modifier = Modifier.size(24.dp))
 
             Row {
-                IconButton(onClick = { /*TODO*/ }) {
+                IconButton(onClick = {}) {
                     Icon(painter = painterResource(id = R.drawable.bag), contentDescription = null, modifier = Modifier.size(24.dp))
                 }
             }
